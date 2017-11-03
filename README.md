@@ -1,0 +1,1 @@
+gcc -std=c99 -c -fpic codec.c && gcc -shared codec.o -o ../lib/resty/mqtt/libmqtt.so
